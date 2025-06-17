@@ -1,0 +1,16 @@
+[project]
+name = "new-azure-jira-agents"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "aiohttp>=3.12.13",
+    "dotenv>=0.9.9",
+    "fastmcp>=2.8.1",
+    "langchain>=0.3.25",
+    "langchain-openai>=0.3.23",
+    "langgraph>=0.4.8",
+    "mcp>=1.9.4",
+    "pandas>=2.3.0",
+]
